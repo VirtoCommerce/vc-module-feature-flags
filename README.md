@@ -1,11 +1,11 @@
 # Preview of feature flags for VirtoCommerce Platform
 
-[![CI status](https://github.com/VirtoCommerce/vc-module-feature-flags/workflows/Module%20CI/badge.svg?branch=dev)](https://github.com/VirtoCommerce/vc-module-feature-flags/actions?query=workflow%3A"Module+CI")
-[![Deployment status](https://github.com/VirtoCommerce/vc-module-feature-flags/workflows/Module%20deployment/badge.svg?branch=dev)](https://github.com/VirtoCommerce/vc-module-feature-flags/actions?query=workflow%3A"Module+deployment") 
-[![Quality gate](https://sonarcloud.io/api/project_badges/measure?project=VirtoCommerce_vc-module-feature-flags&metric=alert_status&branch=dev)](https://sonarcloud.io/dashboard?id=VirtoCommerce_vc-module-feature-flags)
-[![Reliability rating](https://sonarcloud.io/api/project_badges/measure?project=VirtoCommerce_vc-module-feature-flags&metric=reliability_rating&branch=dev)](https://sonarcloud.io/dashboard?id=VirtoCommerce_vc-module-feature-flags)
-[![Security rating](https://sonarcloud.io/api/project_badges/measure?project=VirtoCommerce_vc-module-feature-flags&metric=security_rating&branch=dev)](https://sonarcloud.io/dashboard?id=VirtoCommerce_vc-module-feature-flags)
-[![Maintainability rating](https://sonarcloud.io/api/project_badges/measure?project=VirtoCommerce_vc-module-feature-flags&metric=sqale_rating&branch=dev)](https://sonarcloud.io/dashboard?id=VirtoCommerce_vc-module-feature-flags)
+[![CI status](https://github.com/VirtoCommerce/vc-module-feature-flags/workflows/Module%20CI/badge.svg?branch=master)](https://github.com/VirtoCommerce/vc-module-feature-flags/actions?query=workflow%3A"Module+CI")
+[![Deployment status](https://github.com/VirtoCommerce/vc-module-feature-flags/workflows/Module%20deployment/badge.svg?branch=master)](https://github.com/VirtoCommerce/vc-module-feature-flags/actions?query=workflow%3A"Module+deployment") 
+[![Quality gate](https://sonarcloud.io/api/project_badges/measure?project=VirtoCommerce_vc-module-feature-flags&metric=alert_status&branch=master)](https://sonarcloud.io/dashboard?id=VirtoCommerce_vc-module-feature-flags)
+[![Reliability rating](https://sonarcloud.io/api/project_badges/measure?project=VirtoCommerce_vc-module-feature-flags&metric=reliability_rating&branch=master)](https://sonarcloud.io/dashboard?id=VirtoCommerce_vc-module-feature-flags)
+[![Security rating](https://sonarcloud.io/api/project_badges/measure?project=VirtoCommerce_vc-module-feature-flags&metric=security_rating&branch=master)](https://sonarcloud.io/dashboard?id=VirtoCommerce_vc-module-feature-flags)
+[![Maintainability rating](https://sonarcloud.io/api/project_badges/measure?project=VirtoCommerce_vc-module-feature-flags&metric=sqale_rating&branch=master)](https://sonarcloud.io/dashboard?id=VirtoCommerce_vc-module-feature-flags)
 
 ## License
 
