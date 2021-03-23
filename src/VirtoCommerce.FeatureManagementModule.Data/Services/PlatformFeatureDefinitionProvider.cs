@@ -18,7 +18,7 @@ namespace VirtoCommerce.FeatureManagementModule.Data.Services
             _featureDefinitions = new List<FeatureDefinition>();
         }
 
-        public async Task<FeatureDefinition> GetFeatureDefinitionAsync(string featureName)
+        public virtual async Task<FeatureDefinition> GetFeatureDefinitionAsync(string featureName)
         {
             using (await AsyncLock.GetLockByKey(nameof(GetFeatureDefinitionAsync)).LockAsync())
             {
@@ -28,7 +28,7 @@ namespace VirtoCommerce.FeatureManagementModule.Data.Services
             }
         }
 
-        public IAsyncEnumerable<FeatureDefinition> GetAllFeatureDefinitionsAsync()
+        public virtual IAsyncEnumerable<FeatureDefinition> GetAllFeatureDefinitionsAsync()
         {
             return _featureDefinitions.ToAsyncEnumerable();
         }
@@ -79,7 +79,7 @@ namespace VirtoCommerce.FeatureManagementModule.Data.Services
             _featureDefinitions.Add(featureDefinition);
         }
 
-        public void TryAddFeatureDefinition(string featureName, bool isEnabled)
+        public virtual void TryAddFeatureDefinition(string featureName, bool isEnabled)
         {
             var featureDefinition = ConvertToFeatureDefinition(featureName, isEnabled);
 
