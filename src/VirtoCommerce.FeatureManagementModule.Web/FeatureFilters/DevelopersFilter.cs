@@ -47,7 +47,6 @@ namespace VirtoCommerce.FeatureManagementModule.Web.FeatureFilters
             else
             {
                 var userNameResolver = _userNameResolverFactory();
-
                 var currentUserName = userNameResolver.GetCurrentUserName();
 
                 if (!currentUserName.EqualsInvariant("unknown"))
