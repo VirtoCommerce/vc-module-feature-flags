@@ -41,7 +41,7 @@ namespace VirtoCommerce.FeatureManagementModule.Web
             permissionsProvider.RegisterPermissions(ModuleConstants.Security.Permissions.AllPermissions.Select(x =>
                 new Permission()
                 {
-                    GroupName = "VirtoCommerceFeatureManagementModule",
+                    GroupName = "FeatureManagement",
                     ModuleId = ModuleInfo.Id,
                     Name = x
                 }).ToArray());
