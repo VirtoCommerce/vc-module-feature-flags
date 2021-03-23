@@ -5,17 +5,18 @@ namespace VirtoCommerce.FeatureManagementModule.Core
 {
     public static class ModuleConstants
     {
+        public static class FeatureFilters
+        {
+            public const string Developers = "Developers";
+        }
+
         public static class Security
         {
             public static class Permissions
             {
-                public const string Access = "virtoCommerceFeatureManagementModule:access";
-                public const string Create = "virtoCommerceFeatureManagementModule:create";
-                public const string Read = "virtoCommerceFeatureManagementModule:read";
-                public const string Update = "virtoCommerceFeatureManagementModule:update";
-                public const string Delete = "virtoCommerceFeatureManagementModule:delete";
+                public const string Developer = "features:developer";
 
-                public static string[] AllPermissions { get; } = { Read, Create, Access, Update, Delete };
+                public static string[] AllPermissions { get; } = { Developer };
             }
         }
 

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <module>
-    <id>VirtoCommerce.FeatureManagementModule</id>
-    <version>1.0.0</version>
+    <id>VirtoCommerce.FeatureManagement</id>
+    <version>3.0.0</version>
     <version-tag></version-tag>
-    <platformVersion>3.0.0</platformVersion>
-    <dependencies>
-    </dependencies>
+    <platformVersion>3.49.0</platformVersion>
+    <title>Feature management module (preview)</title>
+    <description>Module provides feature management infrastructure</description>
+    <dependencies></dependencies>
 
     <title>VirtoCommerce.FeatureManagementModule</title>
     <description>Enter your module description here.</description>
     <authors>
-        <author>dpush</author>
+        <author>Dmitry Pushnitsa</author>
     </authors>
     <owners>
       <owner></owner>

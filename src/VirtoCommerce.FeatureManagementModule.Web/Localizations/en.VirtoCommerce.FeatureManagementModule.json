@@ -1,28 +1,11 @@
 {
   "virtoCommerce.featureManagementModule": {
-    "blades": {
-      "hello-world": {
-        "title": "Hello world blade"
-      }
-    }
   },
   "permissions": {
-    "virtoCommerceFeatureManagementModule:access": "Open VirtoCommerceFeatureManagementModule menu",
-    "virtoCommerceFeatureManagementModule:create": "Create VirtoCommerceFeatureManagementModule related data",
-    "virtoCommerceFeatureManagementModule:read": "View VirtoCommerceFeatureManagementModule related data",
-    "virtoCommerceFeatureManagementModule:update": "Update VirtoCommerceFeatureManagementModule related data",
-    "virtoCommerceFeatureManagementModule:delete": "Delete VirtoCommerceFeatureManagementModule related data"
+    "features:developer": "Account with this permission will see all developing features."
   },
   "settings": {
     "VirtoCommerceFeatureManagementModule": {
-      "VirtoCommerceFeatureManagementModulePassword": {
-        "title": "VirtoCommerceFeatureManagementModule Password",
-        "description": "VirtoCommerceFeatureManagementModule Password setting"
-      },
-      "VirtoCommerceFeatureManagementModuleEnabled": {
-        "title": "VirtoCommerceFeatureManagementModule Enabled",
-        "description": "VirtoCommerceFeatureManagementModule Enabled setting"
-      }
     }
   }
 }
