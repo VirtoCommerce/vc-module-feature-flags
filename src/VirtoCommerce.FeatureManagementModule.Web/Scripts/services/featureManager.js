@@ -7,7 +7,7 @@ angular.module(moduleName)
         result.isFeatureEnabled = (featureName) => {
             var deferred = $q.defer();
 
-            $http({ method: 'GET', url: `api/demo/features/${featureName}` })
+            $http({ method: 'GET', url: `api/features/${featureName}` })
                 .then(
                     (response) => {
                         var res = response.data;
