@@ -13,7 +13,7 @@ using featureManagementCore = VirtoCommerce.FeatureManagementModule.Core;
 
 namespace VirtoCommerce.FeatureManagementModule.Web.FeatureFilters
 {
-    [FilterAlias("Developers")]
+    [FilterAlias(featureManagementCore.ModuleConstants.FeatureFilters.Developers)]
     public class DevelopersFilter : IFeatureFilter
     {
         private readonly IHttpContextAccessor _httpContextAccessor;
