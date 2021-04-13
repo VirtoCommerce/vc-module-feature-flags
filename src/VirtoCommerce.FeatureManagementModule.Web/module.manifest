@@ -18,7 +18,7 @@
     </owners>
 
     <releaseNotes>First version.</releaseNotes>
-    <copyright>Copyright © 2021 . All rights reserved</copyright>
+    <copyright>Copyright © 2021 Virto Commerce. All rights reserved</copyright>
     <tags>extension module</tags>
   
     <assemblyFile>VirtoCommerce.FeatureManagementModule.Web.dll</assemblyFile>
