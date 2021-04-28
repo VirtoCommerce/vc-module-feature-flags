@@ -4,22 +4,23 @@
     <version>3.0.0</version>
     <version-tag></version-tag>
     <platformVersion>3.49.0</platformVersion>
-    <title>Feature management module (preview)</title>
-    <description>Module provides feature management infrastructure</description>
     <dependencies></dependencies>
 
-    <title>VirtoCommerce.FeatureManagementModule</title>
-    <description>Enter your module description here.</description>
+    <title>Feature management module</title>
+    <description>Module provides feature management infrastructure</description>
     <authors>
-        <author>Dmitry Pushnitsa</author>
+        <author>Solution team</author>
     </authors>
     <owners>
-      <owner></owner>
+        <owner>Virto Commerce</owner>
     </owners>
 
+    <projectUrl>https://github.com/VirtoCommerce/vc-module-feature-flags</projectUrl>
+    <iconUrl>Modules/$(VirtoCommerce.FeatureManagement)/Content/logo.png</iconUrl>
+
     <releaseNotes>First version.</releaseNotes>
-    <copyright>Copyright © 2021 Virto Commerce. All rights reserved</copyright>
-    <tags>extension module</tags>
+    <copyright>Copyright © 2011-2021 Virto Commerce. All rights reserved</copyright>
+    <tags>feature</tags>
   
     <assemblyFile>VirtoCommerce.FeatureManagementModule.Web.dll</assemblyFile>
     <moduleType>VirtoCommerce.FeatureManagementModule.Web.Module, VirtoCommerce.FeatureManagementModule.Web</moduleType>
