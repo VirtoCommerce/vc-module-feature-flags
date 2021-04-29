@@ -5,15 +5,27 @@ VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2556CF25-DD2E-45C9-B77F-9C193333E811}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtoCommerce.FeatureManagementModule.Web", "src\VirtoCommerce.FeatureManagementModule.Web\VirtoCommerce.FeatureManagementModule.Web.csproj", "{AE38DC0B-A660-4B9D-89C5-E46E4D036E90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtoCommerce.FeatureManagementModule.Web", "src\VirtoCommerce.FeatureManagementModule.Web\VirtoCommerce.FeatureManagementModule.Web.csproj", "{AE38DC0B-A660-4B9D-89C5-E46E4D036E90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtoCommerce.FeatureManagementModule.Core", "src\VirtoCommerce.FeatureManagementModule.Core\VirtoCommerce.FeatureManagementModule.Core.csproj", "{5BC3D608-E055-408F-8BAB-474DA10BDCEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtoCommerce.FeatureManagementModule.Core", "src\VirtoCommerce.FeatureManagementModule.Core\VirtoCommerce.FeatureManagementModule.Core.csproj", "{5BC3D608-E055-408F-8BAB-474DA10BDCEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtoCommerce.FeatureManagementModule.Data", "src\VirtoCommerce.FeatureManagementModule.Data\VirtoCommerce.FeatureManagementModule.Data.csproj", "{38B09091-00BD-4DFA-A9CD-1EFE3DE0AADE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtoCommerce.FeatureManagementModule.Data", "src\VirtoCommerce.FeatureManagementModule.Data\VirtoCommerce.FeatureManagementModule.Data.csproj", "{38B09091-00BD-4DFA-A9CD-1EFE3DE0AADE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E3E9AF78-8A60-47EF-A7AA-80C28967B482}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtoCommerce.FeatureManagementModule.Tests", "tests\VirtoCommerce.FeatureManagementModule.Tests\VirtoCommerce.FeatureManagementModule.Tests.csproj", "{459375E3-A12C-4058-BF9B-260559A57151}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtoCommerce.FeatureManagementModule.Tests", "tests\VirtoCommerce.FeatureManagementModule.Tests\VirtoCommerce.FeatureManagementModule.Tests.csproj", "{459375E3-A12C-4058-BF9B-260559A57151}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2D7EE46F-BEFE-4A0C-8E21-5DCC4678C266}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		.nuke = .nuke
+		CONTRIBUTING.md = CONTRIBUTING.md
+		Directory.Build.props = Directory.Build.props
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
