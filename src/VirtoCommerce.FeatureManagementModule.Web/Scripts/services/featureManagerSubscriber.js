@@ -1,7 +1,7 @@
 var moduleName = "virtoCommerce.featureManagementModule";
 
 angular.module(moduleName)
-    .factory('virtoCommerce.featureManagerSubscriber', ['$rootScope', 'virtoCommerce.featureManager', '$window', function ($rootScope, featureManager, $window) {
+    .factory('virtoCommerce.featureManagerSubscriber', ['$rootScope', 'virtoCommerce.featureManager', '$window', '$state', function ($rootScope, featureManager, $window, $state) {
         var result = {};
 
         result.callbacksGroupedByFeatureName = [];
@@ -33,6 +33,9 @@ angular.module(moduleName)
                                 });
                         });
                     }
+
+                    //We need this reload to make sure that our new toolbar commands are visible inside blade
+                    $state.reload();
                 });
         }
 
